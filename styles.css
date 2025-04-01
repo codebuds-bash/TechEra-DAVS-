@@ -1,0 +1,88 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  color: white;
+  font-family: "Barlow";
+}
+.container {
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+.left {
+  background-color: #ffc663;
+  width: 17%;
+  height: 100%;
+  display: flex;
+    flex-direction: column;
+    gap:150px;
+  justify-content: center;
+  align-items: center;
+}
+.left h1 {
+  font-size: 2rem;
+  font-weight: 600;
+  color: #000000;
+  transform: rotate(90deg);
+}
+.left img{
+    width: 44px;
+
+}
+
+.right {
+  background-color: #97630a;
+  width: 83%;
+  height: 100%;
+  display: flex;
+}
+.navbar {
+  background-color: rgba(128, 128, 128, 0.7);
+  width: 100%;
+  height: 10%;
+  padding: 10px;
+}
+.authlink a{
+    text-decoration: none;
+    color: white;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20%;
+  margin-left: -1000px;
+}
+
+.image img {
+  width: 510px;
+  height: auto;
+  display: flex;
+  margin-left: -30px;
+  justify-content: center;
+  align-items: center;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+    height: 100%;
+}
+
+.content a {
+    text-align: center;
+    color: #000000;
+  background-color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+  width: 40%;
+}
